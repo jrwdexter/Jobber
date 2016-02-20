@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Jobber", "src\Jobber\Jobber.fsproj", "{EEF12F4B-B78B-43E5-9545-4B15F25AF2CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{211AFBBE-BAB5-4EC1-8636-115CA08CA1ED}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{776AA838-4A45-4291-BD0E-A714B3A97D39}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Jobber.Tests", "tests\Jobber.Tests\Jobber.Tests.fsproj", "{7FFE4189-0D7D-45F2-8F44-A39173996D5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEF12F4B-B78B-43E5-9545-4B15F25AF2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF12F4B-B78B-43E5-9545-4B15F25AF2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF12F4B-B78B-43E5-9545-4B15F25AF2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF12F4B-B78B-43E5-9545-4B15F25AF2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFE4189-0D7D-45F2-8F44-A39173996D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFE4189-0D7D-45F2-8F44-A39173996D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFE4189-0D7D-45F2-8F44-A39173996D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFE4189-0D7D-45F2-8F44-A39173996D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FFE4189-0D7D-45F2-8F44-A39173996D5E} = {776AA838-4A45-4291-BD0E-A714B3A97D39}
+	EndGlobalSection
+EndGlobal
